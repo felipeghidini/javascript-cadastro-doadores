@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- HTML - 
+    HYPERTEXT - TEXTO QUE CONTEM LINKS PARA OUTROS DOCUMENTOS
+
+    MARKUP - SIGNIFICA QUE MEU TEXTO TERÁ MARCAÇÕES
+    <tags>
+
+
+    LANGUAGE - PARA ME COMUNICAR DE CERTA MANEIRA. SINTAXE
+
+
+-->
+<html>
+
+<head>
+    <title>Doe vida ! Doe de Sangue</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <img 
+        class="logo"
+        src="logo.png" 
+        alt="DOE">
+        <h2>A sua doação importa</h2>
+        <p>Até 3 vidas com 1 doação</p>
+        <p>Mais de 38.000 doações são necessárias todos os dias</p>
+        <p>Apenas 1,9% da população brasileira doa sangue ! </p>
+
+        <button>Quero Ajudar</button>
+    </header>
+
+
+   <!-- // input - Entrada de texto
+    // output - Saída de texto-->
+
+    <section class="form hide">
+        <h2>Entre na lista de doadores</h2>
+        <form action="/">
+            <input 
+            type="text" 
+            name="name"
+            placeholder="Nome Completo"
+            >
+            <input 
+            type="text" 
+            name="name"
+            placeholder="Email"
+            >
+            <input 
+            type="text" 
+            name="name"
+            placeholder="Tipo Sanguíneo"
+            >
+            <button>Quero Ajudar</button>
+        </form>
+    </section>
+
+    <main>
+        <h2>Últimos <span>doadores</span></h2>
+
+
+        <section class="donors">
+            <div class="donor">
+                <div class="blood">AB+</div>
+                <p>Felipe Ghidini</p>
+            </div>
+            <div class="donor">
+                <div class="blood">B+</div>
+                <p>Amanda Ghidini</p>
+            </div>
+            <div class="donor">
+                <div class="blood">A+</div>
+                <p>Rafael Ghidini</p>
+            </div>
+            <div class="donor">
+                <div class="blood">AB+</div>
+                <p>Valentin Ghidini</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>Com ❤ Ghidinis </footer>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
